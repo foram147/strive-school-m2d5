@@ -4,46 +4,9 @@ body {
     color: white;
   }
   
-  .strive-nav-dark {
-    background-color: #0f171e;
-    background-image: linear-gradient(180deg, #1b2530 0, rgba(27, 37, 48, 0.85));
-  }
-  
-  .navbar-dark .nav-item .nav-link {
-    padding: 0;
-    margin: 8px;
-    color: rgba(255, 255, 255, 0.75);
-  }
-  .navbar-dark .nav-item .nav-link:hover,
-  .navbar-dark .nav-item .nav-link:focus {
-    color: rgba(255, 255, 255, 0.95);
-  }
-  .navbar-dark .active .nav-link {
-    font-weight: 700;
-    border-bottom: 1px solid white;
-  }
-  
-  .dropdown-menu {
-    background-color: #252e39;
-    padding: 0;
-  }
-  
-  .dropdown-item {
-    color: rgb(255 255 255 / 0.75);
-    padding: 14px 48px 14px 16px;
-    border-bottom: 1px solid rgb(50 62 76);
-  }
-  
-  .dropdown-item:focus,
-  .dropdown-item:hover {
-    color: white;
-    background-color: transparent;
-  }
-  
-  .carousel-indicators li {
-    width: 13px;
-    height: 13px;
-    border-radius: 50%;
+  .drpdwn{
+    border: 2px white solid;
+    background-color: #141414;
   }
   
   .section-title {
@@ -53,15 +16,13 @@ body {
     line-height: 24px;
   }
   
-  .prime-badge {
+  .netflix-badge {
     position: absolute;
     top: 0;
     left: 0.25rem;
+    
   }
   
-  /* ADDED AFTER THE LECTURE  */
-  
-  /* FOOTER PROPERTIES: */
   a {
     color: #01a3db;
   }
@@ -72,22 +33,16 @@ body {
   
   footer {
     text-align: center;
+    
   }
   
-  footer .footer-logo {
-    display: inline-block;
-    width: 120px;
-    height: 48px;
-    background-image: url("../logo/strivevideo.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
+ 
   
   footer ul {
     list-style: none;
   }
   footer ul li {
-    display: inline-block;
+    
     margin-right: 0.5rem;
   }
   
@@ -95,33 +50,8 @@ body {
     color: rgba(255, 255, 255, 0.45);
   }
   
-  /* CUSTOM CAROUSEL ARROWS: */
-  .carousel-control-next,
-  .carousel-control-prev {
-    opacity: 1;
-    width: 8%;
-  }
   
-  @media (min-width: 992px) {
-    .carousel-control-next,
-    .carousel-control-prev {
-      width: 5%;
-    }
-  }
   
-  .carousel-control-next-icon,
-  .carousel-control-prev-icon {
-    width: 42px;
-    height: 42px;
-    filter: drop-shadow(0 6px 3px rgba(0, 0, 0, 0.3));
-  }
-  .carousel-control-prev-icon {
-    background-image: url(../logo/prev-arrow.svg);
-  }
-  
-  .carousel-control-next-icon {
-    background-image: url(../logo/next-arrow.svg);
-  }
   .sub-nav{
     
     margin-left: 10px;
@@ -133,4 +63,50 @@ body {
     margin-left: 10px;
     text-align: left;
     font-weight: bold;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 50px;
+    height: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: white;
+    color: #141414;
+    border: white solid;
+    font-weight: bolder;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: white;
+    color: #141414;
+    border: white solid;
+  }
+  .instagram{
+    background: white;
+    color: #141414;
+    border: white solid;
+  }
+  .youtube{
+    background: white;
+    color: #141414;
+    border: white solid;
+  }
+
+  .table-dark{
+    background-color: #141414;
+    border: none;
   }
