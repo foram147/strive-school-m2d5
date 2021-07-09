@@ -1,0 +1,136 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #141414;
+    color: white;
+  }
+  
+  .strive-nav-dark {
+    background-color: #0f171e;
+    background-image: linear-gradient(180deg, #1b2530 0, rgba(27, 37, 48, 0.85));
+  }
+  
+  .navbar-dark .nav-item .nav-link {
+    padding: 0;
+    margin: 8px;
+    color: rgba(255, 255, 255, 0.75);
+  }
+  .navbar-dark .nav-item .nav-link:hover,
+  .navbar-dark .nav-item .nav-link:focus {
+    color: rgba(255, 255, 255, 0.95);
+  }
+  .navbar-dark .active .nav-link {
+    font-weight: 700;
+    border-bottom: 1px solid white;
+  }
+  
+  .dropdown-menu {
+    background-color: #252e39;
+    padding: 0;
+  }
+  
+  .dropdown-item {
+    color: rgb(255 255 255 / 0.75);
+    padding: 14px 48px 14px 16px;
+    border-bottom: 1px solid rgb(50 62 76);
+  }
+  
+  .dropdown-item:focus,
+  .dropdown-item:hover {
+    color: white;
+    background-color: transparent;
+  }
+  
+  .carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+  }
+  
+  .section-title {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+  }
+  
+  .prime-badge {
+    position: absolute;
+    top: 0;
+    left: 0.25rem;
+  }
+  
+  /* ADDED AFTER THE LECTURE  */
+  
+  /* FOOTER PROPERTIES: */
+  a {
+    color: #01a3db;
+  }
+  
+  a:hover {
+    color: #14b5eb;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  footer .footer-logo {
+    display: inline-block;
+    width: 120px;
+    height: 48px;
+    background-image: url("../logo/strivevideo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  footer ul li {
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+  
+  footer ul:last-of-type {
+    color: rgba(255, 255, 255, 0.45);
+  }
+  
+  /* CUSTOM CAROUSEL ARROWS: */
+  .carousel-control-next,
+  .carousel-control-prev {
+    opacity: 1;
+    width: 8%;
+  }
+  
+  @media (min-width: 992px) {
+    .carousel-control-next,
+    .carousel-control-prev {
+      width: 5%;
+    }
+  }
+  
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 42px;
+    height: 42px;
+    filter: drop-shadow(0 6px 3px rgba(0, 0, 0, 0.3));
+  }
+  .carousel-control-prev-icon {
+    background-image: url(../logo/prev-arrow.svg);
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url(../logo/next-arrow.svg);
+  }
+  .sub-nav{
+    
+    margin-left: 10px;
+    margin-top: 15px;
+
+  }
+  .txt{color: white;}
+  h3{
+    margin-left: 10px;
+    text-align: left;
+    font-weight: bold;
+  }
