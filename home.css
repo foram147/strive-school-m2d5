@@ -1,11 +1,15 @@
 body {
     font-family: "Open Sans", sans-serif;
     background-color: #141414;
+    color: #ffffff;
+  }
+  .main-color{
+    background-color: #141414;
     color: white;
   }
-  
   .drpdwn{
     border: 2px white solid;
+    color: white;
     background-color: #141414;
   }
   
@@ -24,7 +28,7 @@ body {
   }
   
   a {
-    color: #01a3db;
+    color: white;
   }
   
   a:hover {
@@ -56,57 +60,15 @@ body {
     
     margin-left: 10px;
     margin-top: 15px;
+    
 
   }
-  .txt{color: white;}
+
   h3{
     margin-left: 10px;
     text-align: left;
     font-weight: bold;
   }
-  .fa {
-    padding: 20px;
-    font-size: 60px;
-    width: 50px;
-    height: 10px;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-  }
   
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 0.7;
-  }
   
-  /* Set a specific color for each brand */
   
-  /* Facebook */
-  .fa-facebook {
-    background: white;
-    color: #141414;
-    border: white solid;
-    font-weight: bolder;
-  }
-  
-  /* Twitter */
-  .fa-twitter {
-    background: white;
-    color: #141414;
-    border: white solid;
-  }
-  .instagram{
-    background: white;
-    color: #141414;
-    border: white solid;
-  }
-  .youtube{
-    background: white;
-    color: #141414;
-    border: white solid;
-  }
-
-  .table-dark{
-    background-color: #141414;
-    border: none;
-  }
